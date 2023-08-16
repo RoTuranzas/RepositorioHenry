@@ -1,0 +1,36 @@
+rotur@DESKTOP-RKFE1NR MINGW64 ~/OneDrive/Escritorio
+$ git config --global user.name "RoTuranzas"
+
+rotur@DESKTOP-RKFE1NR MINGW64 ~/OneDrive/Escritorio
+$ git config --global user.email "roturanzas@yahoo.com.mx"
+
+rotur@DESKTOP-RKFE1NR MINGW64 ~/OneDrive/Escritorio
+$  mkdir "CarpetaHenry"
+
+rotur@DESKTOP-RKFE1NR MINGW64 ~/OneDrive/Escritorio
+$ cd "CarpetaHenry"
+
+rotur@DESKTOP-RKFE1NR MINGW64 ~/OneDrive/Escritorio/CarpetaHenry
+$ touch "primerArchivo.txt"
+
+rotur@DESKTOP-RKFE1NR MINGW64 ~/OneDrive/Escritorio/CarpetaHenry
+$ code .
+
+PS C:\Users\rotur\OneDrive\Escritorio\CarpetaHenry> git init
+PS C:\Users\rotur\OneDrive\Escritorio\CarpetaHenry> git status
+On branch master
+
+No commits yet
+  (use "git add <file>..." to include in what will be committed)
+        primerArchivo.txt
+PS C:\Users\rotur\OneDrive\Escritorio\CarpetaHenry> git add 'primerArchivo.txt'
+PS C:\Users\rotur\OneDrive\Escritorio\CarpetaHenry> git commit -m 'Tarea del Homework del modulo 2 '
+[master (root-commit) 267dd1e] Tarea del Homework del modulo 2
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 primerArchivo.txt
+PS C:\Users\rotur\OneDrive\Escritorio\CarpetaHenry> git log
+commit 267dd1ea612a06ec9e6b71af0896f174d35f7957 (HEAD -> master)
+Author: RoTuranzas <roturanzas@yahoo.com.mx>
+Date:   Wed Aug 16 12:42:23 2023 -0600
+
+    Tarea del Homework del modulo 2
